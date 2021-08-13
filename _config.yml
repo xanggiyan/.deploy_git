@@ -7,14 +7,14 @@ title: 山岩的小站
 subtitle: ''
 description: '山岩的小站'
 keywords:
-author: John Doe
+author: '白云龙'
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://xanggiyan.me
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -29,6 +29,18 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# menu
+menu:
+  Home: .
+  Archives:   archives  # 归档
+  Categories: categories  # 分类
+  Tags:       tags  # 标签
+  Repository: repository  # github repositories
+  Books:      books  # 豆瓣书单
+  Links:      links  # 友链
+  About:      about  # 关于
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -68,6 +80,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+	编程: programming
+	生活: life
+  民族: manchu
+  无线电: HAM
+	其他: other
 tag_map:
 
 # Metadata elements
