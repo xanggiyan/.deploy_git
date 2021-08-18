@@ -15,6 +15,6 @@ hexo make log
       1. config.yml   edit   
           deploy:
             type: git
-            repo: https://github.com/xanggiyan/xanggiyan.github.io.git
+            repo: `https://github.com/xanggiyan/xanggiyan.github.io.git`
             branch: main
       2. git config --global http.sslVerify "false"
