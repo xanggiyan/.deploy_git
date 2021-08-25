@@ -27,24 +27,29 @@ tags:
 </manchu>
 ```
 ## 满文图片混排
-电脑端,没问题,字体大小合适,图片也行
+电脑端,~~没问题~~,字体大小合适,图片也行
 手机端匹配图片出mncbox范围,不缩放,字体偏大
-<manchu id="mncbox" >
+'<'manchu'>'标记需要与上段文字**间隔一行**,否则变形!!!!!
+'img src="/images/xanggiyan.jpg" width="400"'
+
+<manchu  height=400  >
     <p><span lang="mnc">ᡤᡝᠪᡠ ᡧᠠᠨᡤᡤᡳᠶᠠᠨ᠈ ᡴᡠᠪᡠᡥᡝ ᠯᠠᠮᡠᠨ᠉ </span></p>
     <img src="/images/xanggiyan.jpg" width="500">
 </manchu>
 
 
-## 实现效果：
-<manchu id="mncbox" >
+## 实现效果：  
+<manchu id="mncbox">
     <p>2.<span lang="mnc">ᡧᠠᠨᡤᡤᡳᠶᠠᠨ</span>万维网联盟</p>
     <p>3.<span lang="mnc">ᡧᠠᠨᡤᡤᡳᠶᠠᠨ</span>万维网联盟</p>
     <p>4.ᡧᠠᠨᡤᡤᡳᠶᠠᠨ xanggiyan 测试！ </p>
     <p>5.ᡧᠠᠨᡤᡤᡳᠶᠠᠨ 文字竖排 从左至右 </p>
+    <p>特殊字母测试<span lang="mnc">ᠪᡳ ᡵᠠ @!?᠈᠉ ᡳ</span> </p>
 </manchu>
 
 ### 插入视频测试
 此处是抖音账号插入  
+
 <iframe
  
   src="https://v.douyin.com/d8RaTEV/"

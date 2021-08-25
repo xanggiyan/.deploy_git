@@ -24,4 +24,4 @@ add   picgo
 xanggiyan/img
 
 CDN github picgo 
-'https://cdn.jsdelivr.net/gh/xanggiyan/img@main'
+`https://cdn.jsdelivr.net/gh/xanggiyan/img@main`
