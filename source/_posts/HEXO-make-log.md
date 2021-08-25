@@ -18,3 +18,10 @@ hexo make log
             repo: `https://github.com/xanggiyan/xanggiyan.github.io.git`
             branch: main
       2. git config --global http.sslVerify "false"
+
+
+add   picgo
+xanggiyan/img
+
+CDN github picgo 
+'https://cdn.jsdelivr.net/gh/xanggiyan/img@main'
